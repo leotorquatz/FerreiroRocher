@@ -1,0 +1,38 @@
+/* reset */
+
+body{
+    margin: 0;
+    background-color: #2E1012;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+
+.centro {
+    flex: 1;
+    text-align: top;
+}
+
+.column {
+    flex: 1;
+    text-align: center;
+}
+
+.top-image {
+    align-self: flex-start;
+    max-width: 18%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
